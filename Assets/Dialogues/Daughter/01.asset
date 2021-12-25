@@ -16,14 +16,6 @@ MonoBehaviour:
   lines:
   - text: Hey dad...
     englishText: 
-  - text: Don't blame yourself
-    englishText: 
-  - text: This loss was made for good
-    englishText: 
-  - text: You could do nothing to prevent this...
-    englishText: 
-  - text: Or could you..?
-    englishText: 
   choice: {fileID: 0}
   nextDialogue: {fileID: 0}
   consequence: {fileID: 11400000, guid: 563d52e0809be104e82125d98502581a, type: 2}

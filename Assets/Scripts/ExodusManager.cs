@@ -159,6 +159,8 @@ public class ExodusManager : MonoBehaviour
         dayOverButton.interactable = false;
 
         atributes[2].SetActive(true);
+        atributes[1].SetActive(true);
+        atributes[0].SetActive(false);
 
         if (currentDay < 1)
         {

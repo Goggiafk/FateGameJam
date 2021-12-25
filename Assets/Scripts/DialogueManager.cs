@@ -41,7 +41,7 @@ public class DialogueManager : MonoBehaviour
     void Update()
     {
         
-        if ((Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Return) )&& chatText.isActiveAndEnabled && Time.timeScale != 0)
+        if ((Input.GetKeyDown(KeyCode.Mouse0) || Input.GetKeyDown(KeyCode.Return)) && chatText.isActiveAndEnabled && Time.timeScale != 0)
         {
             AdvanceLineForButton();
         }

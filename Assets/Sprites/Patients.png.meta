@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 9dc9dd6652076e84d97583bb96a39327
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6169996614128020393
+    second: Patients_0
+  - first:
+      213: -8578107671144677408
+    second: Patients_1
+  - first:
+      213: 5981321276037888819
+    second: Patients_2
+  - first:
+      213: -2589187997132585931
+    second: Patients_3
+  - first:
+      213: -648951703395609103
+    second: Patients_4
+  - first:
+      213: -8562582424432531560
+    second: Patients_5
+  - first:
+      213: 7343935856109942896
+    second: Patients_6
+  - first:
+      213: -6010208999840279492
+    second: Patients_7
+  - first:
+      213: 7192987610003353366
+    second: Patients_8
+  - first:
+      213: 242962626415275705
+    second: Patients_9
+  - first:
+      213: 7255453386554350780
+    second: Patients_10
+  - first:
+      213: 6864699956866572515
+    second: Patients_11
+  - first:
+      213: 2693617166657401439
+    second: Patients_12
+  - first:
+      213: -3265903692455292674
+    second: Patients_13
+  - first:
+      213: -5088756178010037566
+    second: Patients_14
+  - first:
+      213: -7009196663172919500
+    second: Patients_15
+  - first:
+      213: 6185801703639512211
+    second: Patients_16
+  - first:
+      213: 783742378515014592
+    second: Patients_17
+  - first:
+      213: -8717666020773657054
+    second: Patients_18
+  - first:
+      213: 5914287328787565539
+    second: Patients_19
+  - first:
+      213: -2544948489070826337
+    second: Patients_20
+  - first:
+      213: -5960666801892785907
+    second: Patients_21
+  - first:
+      213: -5475628584178002613
+    second: Patients_22
+  - first:
+      213: 5845460033975859519
+    second: Patients_23
+  - first:
+      213: -7611328136263247160
+    second: Patients_24
+  - first:
+      213: 4514062036128925554
+    second: Patients_25
+  - first:
+      213: -3373263861723557733
+    second: Patients_26
+  - first:
+      213: -6662969881145301977
+    second: Patients_27
+  - first:
+      213: 8804196693088727348
+    second: Patients_28
+  - first:
+      213: 4817047875252770416
+    second: Patients_29
+  - first:
+      213: -3322766832845605623
+    second: Patients_30
+  - first:
+      213: 7264641422324194936
+    second: Patients_31
+  - first:
+      213: 4689969409631929323
+    second: Patients_32
+  - first:
+      213: 3091086364862533227
+    second: Patients_33
+  - first:
+      213: -1425634983938998653
+    second: Patients_34
+  - first:
+      213: 5405100377068152775
+    second: Patients_35
+  - first:
+      213: 190242399050480535
+    second: Patients_36
+  - first:
+      213: -8101216145265538114
+    second: Patients_37
+  - first:
+      213: -5982137685322250835
+    second: Patients_12
+  - first:
+      213: -1187978010068960459
+    second: Patients_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Patients_0
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 1437
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754598df4c4cf5aa0800000000000000
+      internalID: -6169996614128020393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_1
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1416
+        width: 430
+        height: 430
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef3e58958074f880800000000000000
+      internalID: -8578107671144677408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_2
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1790
+        width: 442
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b79b9920ce10350800000000000000
+      internalID: 5981321276037888819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_3
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1985
+        width: 455
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53405361c3b511cd0800000000000000
+      internalID: -2589187997132585931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2573
+        width: 442
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f558b23dd57ef6f0800000000000000
+      internalID: -648951703395609103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_5
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2351
+        width: 227
+        height: 648
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89722b7c6a89b2980800000000000000
+      internalID: -8562582424432531560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1710
+        width: 230
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078ffa450c6eae560800000000000000
+      internalID: 7343935856109942896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1364
+        width: 702
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c341aa212c2779ca0800000000000000
+      internalID: -6010208999840279492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 944
+        width: 716
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f29080f10a2d360800000000000000
+      internalID: 7192987610003353366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_9
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1682
+        width: 736
+        height: 344
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bead21b83d2f5300800000000000000
+      internalID: 242962626415275705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_10
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 2132
+        width: 717
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc1afdf96c80b460800000000000000
+      internalID: 7255453386554350780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_11
+      rect:
+        serializedVersion: 2
+        x: 2869
+        y: 2439
+        width: 130
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0eba27d30544f50800000000000000
+      internalID: 6864699956866572515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2681
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2260b4931f0a40780800000000000000
+      internalID: -8717666020773657054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_22
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1969
+        width: 212
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45581650d8a204b0800000000000000
+      internalID: -5475628584178002613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_23
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1961
+        width: 238
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39bfd92eee3f1150800000000000000
+      internalID: 5845460033975859519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_24
+      rect:
+        serializedVersion: 2
+        x: 2277
+        y: 2608
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cad719f2612f5690800000000000000
+      internalID: -7611328136263247160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_25
+      rect:
+        serializedVersion: 2
+        x: 2276
+        y: 2751
+        width: 124
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2778a8d518b25ae30800000000000000
+      internalID: 4514062036128925554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_26
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 2753
+        width: 147
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b901e4cd362cf21d0800000000000000
+      internalID: -3373263861723557733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_27
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 2753
+        width: 165
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724253de1306883a0800000000000000
+      internalID: -6662969881145301977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_28
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 2703
+        width: 279
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431f838ee3ace2a70800000000000000
+      internalID: 8804196693088727348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_29
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 2976
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076dd7e458799d240800000000000000
+      internalID: 4817047875252770416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_30
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 2932
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 905b9c89b2923e1d0800000000000000
+      internalID: -3322766832845605623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_31
+      rect:
+        serializedVersion: 2
+        x: 2452
+        y: 2850
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ed83642e031d460800000000000000
+      internalID: 7264641422324194936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_32
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 2755
+        width: 78
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be34f8c545e161140800000000000000
+      internalID: 4689969409631929323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_33
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 2673
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e4fabebaeb5ea20800000000000000
+      internalID: 3091086364862533227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_34
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 2605
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e32f21980273ce0800000000000000
+      internalID: -1425634983938998653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_35
+      rect:
+        serializedVersion: 2
+        x: 2389
+        y: 2603
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72a7ec726c20b40800000000000000
+      internalID: 5405100377068152775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_36
+      rect:
+        serializedVersion: 2
+        x: 2394
+        y: 2546
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b3f983470e3a200800000000000000
+      internalID: 190242399050480535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_37
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 2543
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbc9c486d2b29f80800000000000000
+      internalID: -8101216145265538114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 2356
+        width: 254
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5c3ec487d2bfca0800000000000000
+      internalID: -5982137685322250835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_13
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2333
+        width: 207
+        height: 666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b3dd44b44738fe0800000000000000
+      internalID: -1187978010068960459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Patients_14
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 2787
+        width: 218
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2232da73b1169b0800000000000000
+      internalID: -5088756178010037566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
