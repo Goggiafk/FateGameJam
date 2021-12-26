@@ -10,18 +10,28 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 09
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 0435f6229c4592d4e8ace35e830a6f74, type: 2}
   lines:
-  - text: Hello doc
+  - text: What?
     englishText: 
-  - text: Can we do it really fast?
+  - text: My wife said I need therapy
     englishText: 
-  - text: I have a business meeting right after this meeting
+  - text: Or she will divorce me
     englishText: 
-  - text: I have a tough schedule
+  - text: And about job
+    englishText: 
+  - text: My salary proves you wrong
+    englishText: 
+  - text: Now I've seen what is a real wasting of time
+    englishText: 
+  - text: It's your therapy!
+    englishText: 
+  - text: Now I have a meeting
+    englishText: 
+  - text: Goodbye, Mr. "I shouldn't work too much"
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: f9d3ca1b64b8afc47a7a62c9ed592582, type: 2}
-  consequence: {fileID: 0}
+  nextDialogue: {fileID: 0}
+  consequence: {fileID: 11400000, guid: 8b85ac41709759240a9dd4a212f7fe97, type: 2}

@@ -1203,7 +1203,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -3373263861723557733, guid: 9dc9dd6652076e84d97583bb96a39327,
     type: 3}
-  m_Color: {r: 0.3018868, g: 0.015663939, b: 0.015663939, a: 1}
+  m_Color: {r: 0.1509434, g: 0, b: 0.02003767, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6960,7 +6960,7 @@ MonoBehaviour:
         m_MethodName: ChangeDialogue
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: d75d49810706e584ab742b93e0a7a652,
+          m_ObjectArgument: {fileID: 11400000, guid: a1326ebf0e544004c8ef86ed956559b4,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: Dialogue, Assembly-CSharp
           m_IntArgument: 0
@@ -9945,7 +9945,7 @@ MonoBehaviour:
   musicSource: {fileID: 705507996}
   effectSource: {fileID: 963194229}
   dialogues:
-  - {fileID: 11400000, guid: 5d53c9308d456534f9ac7377a0f13b17, type: 2}
+  - {fileID: 11400000, guid: 9d2d080067e4fd948a1d826800a16881, type: 2}
   audioStuff:
   - {fileID: 8300000, guid: cb9e990d4e8bf444cbde67797f4bd703, type: 3}
   - {fileID: 8300000, guid: cc4c50215a52f5e4bacd4917d8b84143, type: 3}
@@ -9979,7 +9979,10 @@ MonoBehaviour:
   - 
   characters:
   - {fileID: 806320665}
+  - {fileID: 1294367429}
+  - {fileID: 183782415}
   - {fileID: 1269556372}
+  - {fileID: 4906255}
   storyCharacters:
   - {fileID: 0}
   - {fileID: 0}

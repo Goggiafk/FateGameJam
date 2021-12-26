@@ -10,18 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 16
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 0435f6229c4592d4e8ace35e830a6f74, type: 2}
   lines:
-  - text: Hello doc
+  - text: Why are you asking?
     englishText: 
-  - text: Can we do it really fast?
+  - text: Do you think I should try working less?
     englishText: 
-  - text: I have a business meeting right after this meeting
+  - text: Maybe it is a good Idea
     englishText: 
-  - text: I have a tough schedule
+  - text: But I'm so unsure
+    englishText: 
+  - text: I'd be happy to spend time with her
+    englishText: 
+  - text: But this feeling...
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: f9d3ca1b64b8afc47a7a62c9ed592582, type: 2}
+  nextDialogue: {fileID: 11400000, guid: b272ad4eafe4985469d412ef9b219248, type: 2}
   consequence: {fileID: 0}

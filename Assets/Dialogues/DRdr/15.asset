@@ -10,12 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 15
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: b786573d046f0b947a5f9d0615004fcd, type: 2}
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Hello there, Doc
+  - text: The best way to get through it
+    englishText: 
+  - text: Is just to live
+    englishText: 
+  - text: Would this person like you to live a happy life?
+    englishText: 
+  - text: Or be a miserable for the rest of your lifr?
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 4e947904e2f62fb4fbdfa8c916e899f9, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 79c0c56f8f7180a4596917d3b918769c, type: 2}
   consequence: {fileID: 0}

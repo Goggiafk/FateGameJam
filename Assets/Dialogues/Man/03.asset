@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 03
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 0435f6229c4592d4e8ace35e830a6f74, type: 2}
   lines:
-  - text: Hello doc
+  - text: That's how you make it long
     englishText: 
-  - text: Can we do it really fast?
+  - text: Just cut these smart words off and keep them for someone else
     englishText: 
-  - text: I have a business meeting right after this meeting
+  - text: You just ask
     englishText: 
-  - text: I have a tough schedule
+  - text: I answer fast
+    englishText: 
+  - text: And we're good
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: f9d3ca1b64b8afc47a7a62c9ed592582, type: 2}
-  consequence: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 3a52c9e5c07a90347bb687a8ee0afe16, type: 2}
+  consequence: {fileID: 11400000, guid: 97530cca251a5384d837f125708b0cbb, type: 2}

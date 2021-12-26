@@ -10,20 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 05
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 824971e39414c1046b4c7264c516c8fd, type: 2}
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
   lines:
-  - text: Hello, Doc
+  - text: Yeah?
     englishText: 
-  - text: This is my first time
+  - text: And who are you afraid of the most?
     englishText: 
-  - text: I always wanted to go for therapy
+  - text: Maybe it's your past?
     englishText: 
-  - text: So I drew a psychologist in a game I made
+  - text: Dad...
     englishText: 
-  - text: And talk to him
+  - text: Tell this boy to travel more
+    englishText: 
+  - text: He just needs to get used to it
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 48ffff3d3ffc815499fd369969033d0b, type: 2}
-  consequence: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 43169f8ec6278574392161f0d21ba6a9, type: 2}
+  consequence: {fileID: 11400000, guid: 3f2e6970d2a29be489f29c211849a873, type: 2}

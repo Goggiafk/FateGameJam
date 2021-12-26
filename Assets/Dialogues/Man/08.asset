@@ -10,18 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 08
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 0435f6229c4592d4e8ace35e830a6f74, type: 2}
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Hello doc
+  - text: You don't need a therapy
     englishText: 
-  - text: Can we do it really fast?
+  - text: You're just another freakin' workaholic
     englishText: 
-  - text: I have a business meeting right after this meeting
-    englishText: 
-  - text: I have a tough schedule
+  - text: You're wasting time & life on your job
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: f9d3ca1b64b8afc47a7a62c9ed592582, type: 2}
-  consequence: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 4cd784dc1d5356247b71c549ba7e6fbb, type: 2}
+  consequence: {fileID: 11400000, guid: 32923ec7e2e566a4b9a3a3a070158bff, type: 2}

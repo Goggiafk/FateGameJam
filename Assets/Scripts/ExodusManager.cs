@@ -443,7 +443,7 @@ public class ExodusManager : MonoBehaviour
                 break;
             case 1:
                  break;
-            case 10:
+            case 7:
 
                 musicSource.clip = audioStuff[2];
                 musicSource.Play();

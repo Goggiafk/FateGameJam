@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 02
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: b786573d046f0b947a5f9d0615004fcd, type: 2}
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Hello there, Doc
+  - text: Hey there
+    englishText: 
+  - text: What you came with?
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 4e947904e2f62fb4fbdfa8c916e899f9, type: 2}
+  nextDialogue: {fileID: 11400000, guid: f84e9fe5e6fc7eb47a5446cfa71779bb, type: 2}
   consequence: {fileID: 0}
