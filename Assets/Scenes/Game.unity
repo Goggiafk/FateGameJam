@@ -169,7 +169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5193423
 Transform:
   m_ObjectHideFlags: 0
@@ -964,7 +964,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &97257470
 Transform:
   m_ObjectHideFlags: 0
@@ -1921,7 +1921,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &223066710
 Transform:
   m_ObjectHideFlags: 0
@@ -2166,7 +2166,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &281537798
 Transform:
   m_ObjectHideFlags: 0
@@ -2355,7 +2355,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &306677136
 Transform:
   m_ObjectHideFlags: 0
@@ -4363,7 +4363,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 16bed8648132e874394348d20589e2ec,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: f0dc2189785a76542adf2c8ade63045d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 39de7ffc2acd5a14cb5cc2848f39803a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -6007,7 +6007,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1010469515
 Transform:
   m_ObjectHideFlags: 0
@@ -7019,7 +7019,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1272659386
 Transform:
   m_ObjectHideFlags: 0
@@ -7269,10 +7269,13 @@ MonoBehaviour:
   choiceManager: {fileID: 8069013024135995354}
   exodus: {fileID: 0}
   dialSprite: {fileID: 21300000, guid: e9a8a02a2d7733944883a6d7efa9c9a6, type: 3}
-  mainSource: {fileID: 963194229}
+  musicSource: {fileID: 705507996}
+  effectSource: {fileID: 963194229}
   dialogues:
   - {fileID: 11400000, guid: 9d2d080067e4fd948a1d826800a16881, type: 2}
-  scream: {fileID: 8300000, guid: cb9e990d4e8bf444cbde67797f4bd703, type: 3}
+  audioStuff:
+  - {fileID: 8300000, guid: cb9e990d4e8bf444cbde67797f4bd703, type: 3}
+  - {fileID: 8300000, guid: cc4c50215a52f5e4bacd4917d8b84143, type: 3}
   atributes:
   - {fileID: 1956657583}
   - {fileID: 5294948818274243137}
@@ -7531,7 +7534,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1354637253
 Transform:
   m_ObjectHideFlags: 0
@@ -10433,7 +10436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2127893100
 Transform:
   m_ObjectHideFlags: 0

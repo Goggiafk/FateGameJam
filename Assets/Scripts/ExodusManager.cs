@@ -22,13 +22,14 @@ public class ExodusManager : MonoBehaviour
     
 
    // public AudioClip endingClip;
-    public AudioSource mainSource;
+    public AudioSource musicSource;
+    public AudioSource effectSource;
 
 
     [Header("Character & Atributes Lists")]
 
     public Dialogue[] dialogues;
-    public AudioClip scream;
+    public AudioClip[] audioStuff;
     public GameObject[] atributes;
     public GameObject[] allCharacters;
     public string[] characterNames;
@@ -53,8 +54,6 @@ public class ExodusManager : MonoBehaviour
     bool toHide = false;
     Color c;
     Image rend;
-
-    int idOfItem = 0;
 
     public string[] eventCounters = new string[100];
     public int[] whenToAppear = new int[100];
@@ -203,10 +202,13 @@ public class ExodusManager : MonoBehaviour
             switch (eventHolder[i])
             {
                 case "startGame":
-                    mainSource.PlayOneShot(scream);
+                    effectSource.PlayOneShot(audioStuff[0]);
+                    musicSource.Stop();
+                    musicSource.clip = audioStuff[1];
+                    
                     atributes[5].GetComponent<Image>().sprite = dialSprite;
                     atributes[3].SetActive(true);
-                    StartCoroutine(Timer(1.5f, () => { atributes[3].SetActive(false); atributes[4].SetActive(true); dialmanager.ChangeDialogue(dialogues[0]);  }));
+                    StartCoroutine(Timer(1.5f, () => { atributes[3].SetActive(false); atributes[4].SetActive(true); dialmanager.ChangeDialogue(dialogues[0]); musicSource.Play(); }));
                     atributes[0].SetActive(true);
                     atributes[1].SetActive(false);
                     atributes[2].SetActive(false);
