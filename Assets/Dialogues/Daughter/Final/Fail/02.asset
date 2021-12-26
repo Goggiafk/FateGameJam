@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc8cea38b312a54380d73b37cf085f7, type: 3}
+  m_Name: 02
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
+  text: What to say?
+  textInEnglish: 
+  options:
+  - text: I do repent...
+    textInEnglish: 
+    dialogue: {fileID: 11400000, guid: dacf309cec3ea2d49a6b932d34db6b0d, type: 2}
+  - text: You're not real!
+    textInEnglish: 
+    dialogue: {fileID: 11400000, guid: 8dc5fa2f2ad6bbb46aaf21e215ea44e8, type: 2}

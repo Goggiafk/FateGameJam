@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 07
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
+  lines:
+  - text: Ok
+    englishText: 
+  - text: Then I'll stay with you forever
+    englishText: 
+  - text: I will never let you be free
+    englishText: 
+  - text: Game is over
+    englishText: 
+  - text: Thank you for playing this Jam Game!
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 0}
+  consequence: {fileID: 11400000, guid: 3620ba531cccaef46a396c5d72fbb352, type: 2}

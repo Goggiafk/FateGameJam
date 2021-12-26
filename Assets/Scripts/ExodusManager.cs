@@ -204,6 +204,9 @@ public class ExodusManager : MonoBehaviour
 
             switch (eventHolder[i])
             {
+                case "mainMenu":
+                    UnityEngine.SceneManagement.SceneManager.LoadScene("MainMenu");
+                    break;
                 case "fail":
                     fail++;
                     break;
@@ -440,6 +443,19 @@ public class ExodusManager : MonoBehaviour
                 break;
             case 1:
                  break;
+            case 10:
+
+                musicSource.clip = audioStuff[2];
+                musicSource.Play();
+                
+                atributes[12].SetActive(true);
+
+                if (fail > 0)
+                    atributes[10].SetActive(true);
+                else
+                    atributes[11].SetActive(true);
+                DayOver();
+                break;
         }
         
         

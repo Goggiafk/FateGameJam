@@ -10,12 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 01
+  m_Name: 05
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 45c23366bbd302d419f75181ab344302, type: 2}
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Yo, Doc!
+  - text: YOU'RE NOT REAL
+    englishText: 
+  - text: GO AWAY
+    englishText: 
+  - text: GO AWAY!
+    englishText: 
+  - text: Please
+    englishText: 
+  - text: '*Sobbing*'
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 8c9d05d5f8c495a4d861b37f378ec614, type: 2}
+  nextDialogue: {fileID: 11400000, guid: e338a4d3af9990b4192864eea5136d66, type: 2}
   consequence: {fileID: 0}

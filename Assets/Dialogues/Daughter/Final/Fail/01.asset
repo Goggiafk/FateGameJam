@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
   m_Name: 01
   m_EditorClassIdentifier: 
-  character: {fileID: 11400000, guid: 45c23366bbd302d419f75181ab344302, type: 2}
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
   lines:
-  - text: Yo, Doc!
+  - text: Hello, Daddy
     englishText: 
-  choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 8c9d05d5f8c495a4d861b37f378ec614, type: 2}
+  - text: I see your therapy isn't going smoothly
+    englishText: 
+  - text: Maybe
+    englishText: 
+  - text: It's you who needs therapy
+    englishText: 
+  choice: {fileID: 11400000, guid: ede47408ef82d644fbb5ede03349b402, type: 2}
+  nextDialogue: {fileID: 0}
   consequence: {fileID: 0}

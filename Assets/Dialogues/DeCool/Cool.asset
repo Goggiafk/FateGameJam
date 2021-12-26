@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65f113a80bcb4248a4358919df6f8fd, type: 3}
   m_Name: Cool
   m_EditorClassIdentifier: 
-  characterName: Cool
+  characterName: Samuel
   characterNameInEnglish: 
   characterVoice: {fileID: 8300000, guid: 89cc7c812874d91468980b669b257a29, type: 3}
   characterColor: {r: 0.41509432, g: 0.36273572, b: 0.03720184, a: 1}
