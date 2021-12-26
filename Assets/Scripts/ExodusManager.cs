@@ -78,7 +78,7 @@ public class ExodusManager : MonoBehaviour
     private string[] eventHolder = new string[999];
     private byte[] eventHolderId = new byte[999];
 
- 
+    
     void Awake()
     {
         /*if (Instance == null)
@@ -221,11 +221,11 @@ public class ExodusManager : MonoBehaviour
 
 
         if (toHide)
-            StartCoroutine(Timer(0.8f, () => { currentCharacter.SetActive(false); }));
+            StartCoroutine(Timer(0.8f, () => { currentCharacter.SetActive(false); atributes[6].SetActive(false); }));
         if (toSpawn)
         {
             //StartCoroutine(JustFade(() => { SpawnCharacter(); }));
-            
+            SpawnCharacter();
         }
     }
 
@@ -253,6 +253,7 @@ public class ExodusManager : MonoBehaviour
 
     private void StoryCharacter()
     {
+        atributes[6].SetActive(true);
         Debug.Log(storyCharacterId);
         storyCharacterId--;
 
@@ -265,7 +266,7 @@ public class ExodusManager : MonoBehaviour
 
     private void ExodusCharacter()
     {
-        
+        atributes[6].SetActive(true);
         currentCharacter = exodusCharacters[exodusCharacterId];
         currentCharacter.SetActive(true);
     }
@@ -289,12 +290,12 @@ public class ExodusManager : MonoBehaviour
         } else
         {
             dayOverButton.interactable = true;
-            dayOverButton.GetComponent<Animator>().SetBool("IsDayOver", true);
         }
     }
 
     public void RandomCharacter()
     {
+        atributes[6].SetActive(true);
         /*var randomCharacters = Resources.FindObjectsOfTypeAll<GameObject>();
         
         for (int i = 0; i < randomCharacters.Length; i++)
