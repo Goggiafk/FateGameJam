@@ -78,12 +78,12 @@ public class ChoiceManager : MonoBehaviour
 
         for (int i = 0; i <= optionId; i++)
         {
-            Debug.Log(optionList[i]);
+ 
         }
 
             for (int i = 0; i <= optionId; i++)
         {
-            Debug.Log(optionList[i]); 
+
             switch (optionList[i])
             {
               

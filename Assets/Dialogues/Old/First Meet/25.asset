@@ -10,12 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 23
+  m_Name: 25
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 58bd77b3132ac264ebe96cfb5b456ec4, type: 2}
   lines:
-  - text: Ok, I will try to
+  - text: Are you that dumb?
     englishText: 
-  choice: {fileID: 0}
+  - text: Of course it's the first thing I tried to do!
+    englishText: 
+  - text: But nobody needs an old man who can only attach caps
+    englishText: 
+  - text: They need "professionals", idlers like you
+    englishText: 
+  choice: {fileID: 11400000, guid: 29880fadd9411be4cb540d623c1400bc, type: 2}
   nextDialogue: {fileID: 0}
-  consequence: {fileID: 11400000, guid: 0e1bb4a878284c04180e701b0a3eafcf, type: 2}
+  consequence: {fileID: 0}

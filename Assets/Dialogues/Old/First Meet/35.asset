@@ -10,12 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 23
+  m_Name: 35
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 58bd77b3132ac264ebe96cfb5b456ec4, type: 2}
   lines:
+  - text: But...
+    englishText: 
   - text: Ok, I will try to
+    englishText: 
+  - text: But not sure if it will work
+    englishText: 
+  - text: Goodbye!
     englishText: 
   choice: {fileID: 0}
   nextDialogue: {fileID: 0}
-  consequence: {fileID: 11400000, guid: 0e1bb4a878284c04180e701b0a3eafcf, type: 2}
+  consequence: {fileID: 11400000, guid: 5933e5b9491512443a0505ec71283429, type: 2}

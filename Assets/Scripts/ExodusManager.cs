@@ -45,6 +45,9 @@ public class ExodusManager : MonoBehaviour
 
     [Header("Some variables")]
 
+
+    private int fail = 0;
+
     public static int peopleDead = 0;
 
     int currentDay = 0;
@@ -76,7 +79,7 @@ public class ExodusManager : MonoBehaviour
 
     int idKok = 0;
     private string[] eventHolder = new string[999];
-    private byte[] eventHolderId = new byte[999];
+    private byte [] eventHolderId = new byte[999];
 
     
     void Awake()
@@ -201,6 +204,9 @@ public class ExodusManager : MonoBehaviour
 
             switch (eventHolder[i])
             {
+                case "fail":
+                    fail++;
+                    break;
                 case "startGame":
                     effectSource.PlayOneShot(audioStuff[0]);
                     musicSource.Stop();
@@ -220,14 +226,18 @@ public class ExodusManager : MonoBehaviour
                     atributes[7].SetActive(false);
                     break;
                 case "Henry":
-                    eventCounters[idOfEventCounter] = "old";
-                    switch (eventHolderId)
+                    
+                    whenToAppear[idOfEventCounter] = currentDay + 1;
+                    switch (eventHolderId[i])
                     {
-                        default:
-                            whenToAppear[idOfEventCounter] = currentDay + 1;
+                        case 0:
+                            eventCounters[idOfEventCounter] = "old";
+                            break;
+                        case 1:
+                            eventCounters[idOfEventCounter] = "nogobby";
                             break;
                     }
-                    
+                    idOfEventCounter++;
                     break;
             }
 
@@ -239,7 +249,8 @@ public class ExodusManager : MonoBehaviour
         if (toHide)
         {
             //StartCoroutine(Timer(0.8f, () => { currentCharacter.SetActive(false); atributes[6].SetActive(false); }));
-            currentCharacter.SetActive(false); atributes[6].SetActive(false);
+            currentCharacter.SetActive(false);
+            atributes[6].SetActive(false);
         }
         if (toSpawn)
         {
@@ -272,6 +283,7 @@ public class ExodusManager : MonoBehaviour
 
     private void StoryCharacter()
     {
+        atributes[6].SetActive(true);
         Debug.Log(storyCharacterId);
         storyCharacterId--;
 
@@ -284,13 +296,13 @@ public class ExodusManager : MonoBehaviour
 
     private void ExodusCharacter()
     {
-
+        atributes[6].SetActive(true);
         currentCharacter = exodusCharacters[exodusCharacterId];
         currentCharacter.SetActive(true);
     }
     public void SpawnCharacter()
     {
-        atributes[6].SetActive(true);
+        
         if (exodusCharacterId > 0)
         {
             exodusCharacterId--;
@@ -301,7 +313,7 @@ public class ExodusManager : MonoBehaviour
             
             StoryCharacter();
         }
-        else if (!(characters.Length <= 0) && charactersToSpawn > 1)
+        else if (!(characters.Length <= 0) && charactersToSpawn > 0)
         {
             charactersToSpawn--;
             RandomCharacter();
@@ -313,7 +325,7 @@ public class ExodusManager : MonoBehaviour
 
     public void RandomCharacter()
     {
-        
+        atributes[6].SetActive(true);
         /*var randomCharacters = Resources.FindObjectsOfTypeAll<GameObject>();
         
         for (int i = 0; i < randomCharacters.Length; i++)
@@ -399,27 +411,32 @@ public class ExodusManager : MonoBehaviour
 
         for (int i = 0; i < idOfEventCounter; i++)
         {
-            Debug.Log(eventCounters[i]);
+
 
 
             if (whenToAppear[i] == currentDay)
             {
                 switch (eventCounters[i])
                 {
-
+                    case "nogobby":
+                        atributes[9].SetActive(true);
+                        storyCharacters[storyCharacterId] = allCharacters[1];
+                        storyCharacterId++;
+                        break;
                     case "old":
                         atributes[8].SetActive(true);
                         storyCharacters[storyCharacterId] = allCharacters[1];
                         storyCharacterId++;
                         break;
                 }
+                clearCounter(i);
             }
         }
         switch (currentDay)
         {
 
             default:
-                dialmanager.ChangeDialogue(dialogues[0]);
+                SpawnCharacter();
                 break;
             case 1:
                  break;

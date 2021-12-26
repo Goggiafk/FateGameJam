@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 27
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
+  lines:
+  - text: ...
+    englishText: 
+  - text: You're an asshole, Henry
+    englishText: 
+  - text: The only freaking thing you have done for your whole life
+    englishText: 
+  - text: Is only attaching cap to a tube
+    englishText: 
+  - text: You're useless to society and narrow-minded
+    englishText: 
+  - text: Actually
+    englishText: 
+  - text: I don't care about your situation
+    englishText: 
+  - text: There are people with normal problems
+    englishText: 
+  - text: Not like you
+    englishText: 
+  - text: So hell with ya'!
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: e64ea2818981ce946ba0000ab888a83e, type: 2}
+  consequence: {fileID: 11400000, guid: 32923ec7e2e566a4b9a3a3a070158bff, type: 2}

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6cc8cea38b312a54380d73b37cf085f7, type: 3}
-  m_Name: 12
+  m_Name: 26
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   text: What to say?
   textInEnglish: 
   options:
-  - text: Find new hobby
+  - text: There are opportunities!
     textInEnglish: 
-    dialogue: {fileID: 11400000, guid: 8b09d50363a5c7148ba7666f2cb276d1, type: 2}
-  - text: Try finding new job
+    dialogue: {fileID: 11400000, guid: 7e4d47adbe29209408061dd7c8f8066b, type: 2}
+  - text: You're an asshole...
     textInEnglish: 
-    dialogue: {fileID: 11400000, guid: d4f7294c91bf3864aa9e92d9e11a063f, type: 2}
+    dialogue: {fileID: 11400000, guid: 276a901f8ca6b1c449528cc3f8880f58, type: 2}

@@ -10,12 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 23
+  m_Name: 30
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 58bd77b3132ac264ebe96cfb5b456ec4, type: 2}
   lines:
-  - text: Ok, I will try to
+  - text: Really?
+    englishText: 
+  - text: This is whole your therapy?
+    englishText: 
+  - text: '"Just go & find a job"?'
+    englishText: 
+  - text: Thank you, but I don't need your services anymore
+    englishText: 
+  - text: Goodbye
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 0}
-  consequence: {fileID: 11400000, guid: 0e1bb4a878284c04180e701b0a3eafcf, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 2879725f91283dc4c8b1151b9d467322, type: 2}
+  consequence: {fileID: 11400000, guid: b6a04d2264336e34ab7eaa24df2a28fb, type: 2}

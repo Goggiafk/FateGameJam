@@ -18,7 +18,7 @@ MonoBehaviour:
   options:
   - text: You should choose it
     textInEnglish: 
-    dialogue: {fileID: 11400000, guid: 8b09d50363a5c7148ba7666f2cb276d1, type: 2}
+    dialogue: {fileID: 11400000, guid: 677f06b56479b6c4786c225573483c47, type: 2}
   - text: Try writing!
     textInEnglish: 
     dialogue: {fileID: 11400000, guid: 6ffc41b312509ef44888d0e432cfdb2b, type: 2}

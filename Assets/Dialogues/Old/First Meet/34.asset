@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 34
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
+  lines:
+  - text: That's the way
+    englishText: 
+  - text: You have to put efforts to find it
+    englishText: 
+  - text: Otherwise, it won't happen
+    englishText: 
+  - text: Just try it
+    englishText: 
+  - text: For now, our time is over
+    englishText: 
+  - text: It was nice to talk to you
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: c76376c67a1152e4384fc138c28bf4de, type: 2}
+  consequence: {fileID: 0}
