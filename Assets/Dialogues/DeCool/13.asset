@@ -10,20 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 03
+  m_Name: 13
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 45c23366bbd302d419f75181ab344302, type: 2}
   lines:
-  - text: I actually don't know
+  - text: I don't want to live with my father anymore
     englishText: 
-  - text: My rich dad put me here
+  - text: I don't feel happy at home anymore
     englishText: 
-  - text: So I kinda change my behavior
+  - text: But my dad is afraid to let me go anywhere
     englishText: 
-  - text: But I don't think there's anything wrong with my behavior
+  - text: I just...
     englishText: 
-  - text: I'm just bored, so cheer me up, looser
+  - text: I just want to hear your opinion
     englishText: 
-  choice: {fileID: 11400000, guid: c03037d7db33f5a4aa541fa7b85a87a5, type: 2}
+  - text: I have a girlfriend
+    englishText: 
+  - text: And we would like to move to a whole new country
+    englishText: 
+  - text: Does this sound like a good idea?
+    englishText: 
+  choice: {fileID: 11400000, guid: bcdd18532683a8d44ad75e3365a4f97d, type: 2}
   nextDialogue: {fileID: 0}
   consequence: {fileID: 0}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc8cea38b312a54380d73b37cf085f7, type: 3}
+  m_Name: 04
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
+  text: What to say?
+  textInEnglish: 
+  options:
+  - text: What about your father?
+    textInEnglish: 
+    dialogue: {fileID: 11400000, guid: 7a02db9c25e2a90429a41193f4c29864, type: 2}
+  - text: You little shit
+    textInEnglish: 
+    dialogue: {fileID: 11400000, guid: b0cdbb03a1b02c74cbcc5182262deb7d, type: 2}

@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 02
+  m_Name: 10
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Hello, how may I help you?
+  - text: What about your father?
+    englishText: 
+  - text: Are you in good relationship with him?
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 051d5be2262fe7b4c84898c04420a394, type: 2}
+  nextDialogue: {fileID: 11400000, guid: b7791a092f5e5a846a0e3f67fec67c70, type: 2}
   consequence: {fileID: 0}

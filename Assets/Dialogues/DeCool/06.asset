@@ -10,20 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 03
+  m_Name: 06
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 45c23366bbd302d419f75181ab344302, type: 2}
   lines:
-  - text: I actually don't know
+  - text: Wooooah...
     englishText: 
-  - text: My rich dad put me here
+  - text: Chill man
     englishText: 
-  - text: So I kinda change my behavior
+  - text: You don't even know who you are talking to
     englishText: 
-  - text: But I don't think there's anything wrong with my behavior
+  - text: My father is...
     englishText: 
-  - text: I'm just bored, so cheer me up, looser
-    englishText: 
-  choice: {fileID: 11400000, guid: c03037d7db33f5a4aa541fa7b85a87a5, type: 2}
-  nextDialogue: {fileID: 0}
-  consequence: {fileID: 0}
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 4ee5eeaa9fa3db84ead4a7a50a94c926, type: 2}
+  consequence: {fileID: 11400000, guid: 32923ec7e2e566a4b9a3a3a070158bff, type: 2}

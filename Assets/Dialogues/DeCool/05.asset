@@ -10,12 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
-  m_Name: 02
+  m_Name: 05
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: Hello, how may I help you?
+  - text: You little shit
+    englishText: 
+  - text: You don't deserve even half of what you got
+    englishText: 
+  - text: No, even quarter of it
+    englishText: 
+  - text: You just suck father's money
+    englishText: 
+  - text: And do nothing
+    englishText: 
+  - text: How do you feel being useless to society?
+    englishText: 
+  - text: The only looser here is you
     englishText: 
   choice: {fileID: 0}
-  nextDialogue: {fileID: 11400000, guid: 051d5be2262fe7b4c84898c04420a394, type: 2}
+  nextDialogue: {fileID: 11400000, guid: 4df66c48c6586614693c8ade0ce20228, type: 2}
   consequence: {fileID: 0}
