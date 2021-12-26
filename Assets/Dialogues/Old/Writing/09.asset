@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 09
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
+  lines:
+  - text: It was a failure!
+    englishText: 
+  - text: You should have left the old man to die
+    englishText: 
+  - text: Like you did it to me...
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: 6b38116ecf9fd274b8535ddb7cbba208, type: 2}
+  consequence: {fileID: 0}

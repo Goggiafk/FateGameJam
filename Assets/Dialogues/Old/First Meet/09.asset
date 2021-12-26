@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 09
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 5f67d3ef082b3914fb5ef439ce26ec25, type: 2}
+  lines:
+  - text: Just tell him to find a new job
+    englishText: 
+  - text: Trust me
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: abfba477a443255479e81d64ddff5406, type: 2}
+  consequence: {fileID: 11400000, guid: 3f2e6970d2a29be489f29c211849a873, type: 2}

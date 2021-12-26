@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 13
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
+  lines:
+  - text: I can understand you.
+    englishText: 
+  - text: Radical changes may stun you at first...
+    englishText: 
+  - text: I guess, the best decision is to find a new hobby
+    englishText: 
+  - text: Especially in your age
+    englishText: 
+  - text: You can buy a dog & take care of her
+    englishText: 
+  - text: Or you can start playing chess
+    englishText: 
+  - text: What do you think?
+    englishText: 
+  choice: {fileID: 0}
+  nextDialogue: {fileID: 11400000, guid: ea2017357327040418ad3c7834fc2354, type: 2}
+  consequence: {fileID: 0}

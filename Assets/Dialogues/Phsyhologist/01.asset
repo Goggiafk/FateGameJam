@@ -22,6 +22,40 @@ MonoBehaviour:
     englishText: 
   - text: Sophie...
     englishText: 
+  - text: All the things she said, all she did
+    englishText: 
+  - text: All was telling me this
+    englishText: 
+  - text: I must've noticed...
+    englishText: 
+  - text: I was more worried about my clients
+    englishText: 
+  - text: Daughter...
+    englishText: 
+  - text: I should've listened to you at least once
+    englishText: 
+  - text: Maybe I could have saved her...
+    englishText: 
+  - text: It was me who killed her
+    englishText: 
+  - text: How did it happen
+    englishText: 
+  - text: That I, an experienced psychologist
+    englishText: 
+  - text: Could not notice something so obvious?
+    englishText: 
+  - text: Have I lost my grip?
+    englishText: 
+  - text: Or was I paying too much attention to others?
+    englishText: 
+  - text: Ok, I need to calm down...
+    englishText: 
+  - text: '*Deep breath*'
+    englishText: 
+  - text: Soon a client will come
+    englishText: 
+  - text: I have to save another person from the irreversible and terrible
+    englishText: 
   choice: {fileID: 11400000, guid: f15e8a4978746314d8af069d550f8f3b, type: 2}
   nextDialogue: {fileID: 0}
   consequence: {fileID: 0}

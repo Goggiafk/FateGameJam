@@ -15,4 +15,4 @@ MonoBehaviour:
   nameOfExodus: 
   exodusInt: 0
   spawnNext: 1
-  HideCurrentCharacter: 0
+  HideCurrentCharacter: 1

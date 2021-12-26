@@ -18,4 +18,4 @@ MonoBehaviour:
     englishText: 
   choice: {fileID: 0}
   nextDialogue: {fileID: 0}
-  consequence: {fileID: 0}
+  consequence: {fileID: 11400000, guid: 8b85ac41709759240a9dd4a212f7fe97, type: 2}

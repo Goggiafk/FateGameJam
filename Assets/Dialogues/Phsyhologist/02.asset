@@ -13,15 +13,12 @@ MonoBehaviour:
   m_Name: 02
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
-  text: cum
+  text: What should I do?
   textInEnglish: 
   options:
-  - text: cum
-    textInEnglish: 
-    dialogue: {fileID: 11400000, guid: 30af8ffa74142ab499a4c99e96e5d65b, type: 2}
-  - text: cum
+  - text: Sit & Relax
     textInEnglish: 
     dialogue: {fileID: 11400000, guid: 03962c425f6a58743a11407caf9da676, type: 2}
-  - text: cum
+  - text: Invite Client
     textInEnglish: 
-    dialogue: {fileID: 11400000, guid: 86c0b43fa0164614e9de09d1aa36b2c5, type: 2}
+    dialogue: {fileID: 11400000, guid: 30af8ffa74142ab499a4c99e96e5d65b, type: 2}

@@ -49,7 +49,7 @@ public class ExodusManager : MonoBehaviour
 
     int currentDay = 0;
 
-    int charactersToSpawn = 3;
+    int charactersToSpawn = 1;
     bool toSpawn = true;
     bool toHide = false;
     Color c;
@@ -213,6 +213,22 @@ public class ExodusManager : MonoBehaviour
                     atributes[1].SetActive(false);
                     atributes[2].SetActive(false);
                     break;
+                case "GirlAppear":
+                    atributes[7].SetActive(true);
+                    break;
+                case "GirlDisappear":
+                    atributes[7].SetActive(false);
+                    break;
+                case "Henry":
+                    eventCounters[idOfEventCounter] = "old";
+                    switch (eventHolderId)
+                    {
+                        default:
+                            whenToAppear[idOfEventCounter] = currentDay + 1;
+                            break;
+                    }
+                    
+                    break;
             }
 
         }
@@ -221,7 +237,10 @@ public class ExodusManager : MonoBehaviour
 
 
         if (toHide)
-            StartCoroutine(Timer(0.8f, () => { currentCharacter.SetActive(false); atributes[6].SetActive(false); }));
+        {
+            //StartCoroutine(Timer(0.8f, () => { currentCharacter.SetActive(false); atributes[6].SetActive(false); }));
+            currentCharacter.SetActive(false); atributes[6].SetActive(false);
+        }
         if (toSpawn)
         {
             //StartCoroutine(JustFade(() => { SpawnCharacter(); }));
@@ -253,7 +272,6 @@ public class ExodusManager : MonoBehaviour
 
     private void StoryCharacter()
     {
-        atributes[6].SetActive(true);
         Debug.Log(storyCharacterId);
         storyCharacterId--;
 
@@ -266,13 +284,13 @@ public class ExodusManager : MonoBehaviour
 
     private void ExodusCharacter()
     {
-        atributes[6].SetActive(true);
+
         currentCharacter = exodusCharacters[exodusCharacterId];
         currentCharacter.SetActive(true);
     }
     public void SpawnCharacter()
     {
-        
+        atributes[6].SetActive(true);
         if (exodusCharacterId > 0)
         {
             exodusCharacterId--;
@@ -295,7 +313,7 @@ public class ExodusManager : MonoBehaviour
 
     public void RandomCharacter()
     {
-        atributes[6].SetActive(true);
+        
         /*var randomCharacters = Resources.FindObjectsOfTypeAll<GameObject>();
         
         for (int i = 0; i < randomCharacters.Length; i++)
@@ -359,7 +377,6 @@ public class ExodusManager : MonoBehaviour
     public void DayOver()
     {
         dayOverButton.interactable = false;
-        dayOverButton.GetComponent<Animator>().SetBool("IsDayOver", false);
         //SaveAll(true);
     }
     public void UdpdateDay()
@@ -376,7 +393,7 @@ public class ExodusManager : MonoBehaviour
 
     public void NextDay()
     {
-        charactersToSpawn = 3;
+        charactersToSpawn = 1;
         currentDay++;
        
 
@@ -389,17 +406,23 @@ public class ExodusManager : MonoBehaviour
             {
                 switch (eventCounters[i])
                 {
-                 //cases
-                
+
+                    case "old":
+                        atributes[8].SetActive(true);
+                        storyCharacters[storyCharacterId] = allCharacters[1];
+                        storyCharacterId++;
+                        break;
                 }
             }
         }
         switch (currentDay)
         {
+
             default:
-                //StartCoroutine(JustFade(() => { SpawnCharacter(); }));
+                dialmanager.ChangeDialogue(dialogues[0]);
                 break;
-            //dayevents
+            case 1:
+                 break;
         }
         
         

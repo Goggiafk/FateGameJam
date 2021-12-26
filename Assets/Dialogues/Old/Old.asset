@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a65f113a80bcb4248a4358919df6f8fd, type: 3}
   m_Name: Old
   m_EditorClassIdentifier: 
-  characterName: Old
+  characterName: Henry
   characterNameInEnglish: 
   characterVoice: {fileID: 8300000, guid: 3cc8e5455ad7f264080e50de2e87da3e, type: 3}
   characterColor: {r: 0.4528302, g: 0.03338058, b: 0, a: 1}

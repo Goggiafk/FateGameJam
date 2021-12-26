@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: 67f5c2617048dd04b99836355e92e0e4, type: 2}
   lines:
-  - text: 1
+  - text: COME IN!
     englishText: 
   choice: {fileID: 0}
   nextDialogue: {fileID: 0}

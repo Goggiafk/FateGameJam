@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e3b5371297b4c48b72632f04d79c21, type: 3}
+  m_Name: 03
+  m_EditorClassIdentifier: 
+  character: {fileID: 11400000, guid: 58bd77b3132ac264ebe96cfb5b456ec4, type: 2}
+  lines:
+  - text: Sure, doc!
+    englishText: 
+  - text: Khm...
+    englishText: 
+  - text: '"I get up early in the morning'
+    englishText: 
+  - text: And I run to the kitchen.
+    englishText: 
+  - text: Let the lessons wait!
+    englishText: 
+  - text: Teeth won't wait.
+    englishText: 
+  - text: It's unpleasant for me in the morning
+    englishText: 
+  - text: With my dirty teeth.
+    englishText: 
+  - text: Give me the brush soon!
+    englishText: 
+  - text: I conjure you.
+    englishText: 
+  - text: And come on, back and forth
+    englishText: 
+  - text: "\rI brush my teeth quickly."
+    englishText: 
+  - text: Up and down, here and there
+    englishText: 
+  - text: Your teeth will be clean."
+    englishText: 
+  - text: Ah...
+    englishText: 
+  - text: I think it's just brilliant!
+    englishText: 
+  - text: I will send it to newspaper office!
+    englishText: 
+  - text: What do you think, doc?
+    englishText: 
+  choice: {fileID: 11400000, guid: e20a454c2af960c4ebe107f1dcd3104a, type: 2}
+  nextDialogue: {fileID: 0}
+  consequence: {fileID: 0}
